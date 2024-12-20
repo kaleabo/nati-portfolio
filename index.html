@@ -32,12 +32,29 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <title>Natnael Getahun - Creative Designer</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body class="bg-gradient-to-br from-gray-900 to-black text-gray-100">
+<body class="bg-gradient-to-br from-gray-900 to-black text-gray-100 font-sans">
+    <!-- Rest of the body content remains exactly the same -->
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="fixed inset-0 bg-gray-900/95 z-50 transform translate-x-full transition-transform duration-300 lg:hidden">
         <div class="flex justify-end p-6">
