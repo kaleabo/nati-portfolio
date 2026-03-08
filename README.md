@@ -1,54 +1,41 @@
-# Portfolio Website
+# NATI.VISION | Cinematographer & Video Editor Portfolio
 
-A modern, responsive portfolio website built with HTML, TailwindCSS, and enhanced with smooth animations using AOS (Animate On Scroll).
+A high-profile, professional portfolio website for a video editor and cameraman. Designed with cinematic aesthetics, gold accents, and a premium glassmorphism feel.
 
-## Features
+## 🎬 Features
 
-- Modern and clean design with gradient accents
-- Fully responsive layout
-- Smooth scroll animations
-- Interactive hover effects
-- Contact form
-- Skills showcase
-- Project portfolio gallery
-- Dynamic navbar with scroll effect
+- **Cinematic Hero**: High-impact immersive header with lens flare effects and motion-blurred backgrounds.
+- **Service Delineation**: Dedicated sections for Video Editing, Cinematography, and Photography.
+- **Curated Portfolio**: Categorized grid for diverse media projects with dynamic filtering.
+- **Brand Story**: Narrative-driven biography emphasizing "The Story Behind the Lens".
+- **Client Testimonials**: "Voice of the Industry" section with professional feedback.
+- **Premium UI**: Custom gold gradients, glassmorphism cards, and refined typography (Outfit & Playfair).
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewing.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- HTML5
-- TailwindCSS
-- JavaScript
-- AOS (Animate On Scroll) library
+- **HTML5 & Vanilla CSS**: Core layout and custom design tokens.
+- **TailwindCSS**: Rapid utility-based styling.
+- **JavaScript**: Interactive category filtering and scroll effects.
+- **AOS (Animate On Scroll)**: Sophisticated entry animations.
 
-## Sections
+## 📁 Directory Structure
 
-- Hero section with animated elements
-- About section with personal introduction
-- Skills section showcasing expertise
-- Projects portfolio with hover effects
-- Contact form with modern styling
-- Footer with social links
+- `index.html`: Main landing page.
+- `project-detail.html`: Dynamic case study viewer.
+- `styles.css`: Custom CSS for premium aesthetics.
+- `images/`: High-resolution cinematic assets.
 
-## Setup
+## 🚀 Setup
 
-1. Clone the repository
-2. Open index.html in your browser
-3. No build process required as it uses CDN links
+1. Open `index.html` in any modern web browser.
+2. The site uses CDN links for Tailwind and AOS, so no build step is required.
 
-## Customization
+## 🎨 Design Tokens
 
-- Update profile image in the images folder
-- Modify text content to match your details
-- Add your own project images
-- Customize colors by modifying Tailwind classes
-- Update social media links in footer
+- **Gold**: `#D4AF37`
+- **Dark**: `#0A0A0A`
+- **Fonts**: Outfit (Sans), Playfair Display (Serif)
 
-## Credits
-
-- TailwindCSS for styling
-- AOS library for scroll animations
-- All images should be placed in the images directory
-
-## License
-
-This project is open source and available under the MIT License.
+---
+© 2026 NATI.VISION — All Rights Reserved.
