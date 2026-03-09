@@ -55,6 +55,13 @@
                         </svg>
                         Jimma, Ethiopia
                     </p>
+                    <p class="flex items-center gap-3 text-gold">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        beaconsmma1@gmail.com
+                    </p>
                     <p class="flex items-center gap-3">
                         <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -62,6 +69,15 @@
                         </svg>
                         +251 952 819 590
                     </p>
+                </div>
+            </div>
+            <div class="flex flex-wrap gap-12">
+                <div class="space-y-4">
+                    <span class="block text-[10px] font-bold text-gray-500 uppercase tracking-[0.3em]">Network</span>
+                    <a href="https://instagram.com/beacondigital" target="_blank"
+                        class="block text-sm hover:text-gold transition-colors">Instagram</a>
+                    <a href="#" class="block text-sm hover:text-gold transition-colors">Telegram</a>
+                    <a href="#" class="block text-sm hover:text-gold transition-colors">TikTok</a>
                 </div>
             </div>
             <div class="text-[10px] text-gray-700 uppercase tracking-[0.4em] self-end">
@@ -75,38 +91,36 @@
         const projects = {
             'cinematography': {
                 category: 'Cinematography',
-                title: 'High Motion Reel',
-                description: 'High-performance commercial shoot capturing motion and speed.',
-                overview: 'This project pushed the limits of high-speed cinematography. Utilizing specialized gimbal rigs and high-frame-rate capture (120fps), we emphasized fluid motion in a structured production environment.',
+                title: 'Jimma Coffee Estate',
+                description: 'High-performance commercial shoot capturing the soul of Jimma coffee.',
+                overview: 'This project pushed the limits of high-speed cinematography and macro-photography. Utilizing specialized gimbal rigs and high-frame-rate capture, we emphasized the fluid motion of the roasting and brewing process.',
                 images: [],
                 videos: ['videos/project-1.mp4'],
                 stats: [
                     { value: '8K', label: 'Raw Resolution' },
                     { value: '120fps', label: 'Slow Motion' },
-                    { value: 'PRO', label: 'Rigging' }
+                    { value: 'PRO', label: 'Macro Rig' }
                 ],
-                nextProject: { slug: 'photography', title: 'Golden Hour Wedding', image: 'images/projects/wedding-photo.jpg' }
+                nextProject: { slug: 'photography', title: 'Habesha Traditions', image: 'images/photography.png' }
             },
             'photography': {
                 category: 'Photography',
-                title: 'Golden Hour Wedding',
-                description: 'Premium product photography highlighting texture and elegance.',
-                overview: 'Wedding photography is about more than just images; it is about capturing the soul of a moment. For this high-profile event, we focused on soft, warm lighting and organic compositions.',
-                images: [
-                    'images/projects/wedding-photo.jpg'
-                ],
+                title: 'Habesha Traditions',
+                description: 'Premium commercial photography highlighting texture and cultural elegance.',
+                overview: 'Capturing the intricate details of traditional Ethiopian textiles and craftsmanship. This series focuses on natural lighting and rich textures to elevate brand identity.',
+                images: ['images/photography.png'],
                 stats: [
                     { value: '50MP', label: 'Stills Detail' },
                     { value: 'Natural', label: 'Light' },
                     { value: 'Elegance', label: 'Theme' }
                 ],
-                nextProject: { slug: 'editing', title: 'The Rhythm of City', image: 'images/cinematography.png' }
+                nextProject: { slug: 'editing', title: 'Modern Jimma Growth', image: 'images/video-editing.png' }
             },
             'editing': {
                 category: 'Video Editing',
-                title: 'The Rhythm of City',
-                description: 'Narrative-driven documentary editing with a focus on rhythm.',
-                overview: 'The Rhythm of City focuses on the pulse of urban life. The edit uses aggressive rhythmic cuts and a cinematic color grade to visualize the heartbeat of Addis Ababa.',
+                title: 'Modern Jimma Growth',
+                description: 'Narrative-driven documentary editing with a focus on Jimma\'s urban rhythm.',
+                overview: 'Modern Jimma Growth captures the rapid urban development in Southwest Ethiopia. The edit uses clean transitions and a cinematic color grade to visualize progress.',
                 images: [],
                 videos: ['videos/project-2.mp4'],
                 stats: [
@@ -114,7 +128,7 @@
                     { value: 'DaVinci', label: 'Color Grade' },
                     { value: 'Custom', label: 'Sound' }
                 ],
-                nextProject: { slug: 'cinematography', title: 'High Motion Reel', image: 'images/cinematography.png' }
+                nextProject: { slug: 'cinematography', title: 'Jimma Coffee Estate', image: 'images/photography.png' }
             }
         };
 
